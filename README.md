@@ -78,3 +78,10 @@ La estructura de un proyecto en Flutter sigue una convención de carpetas están
 - build: Esta carpeta se genera automáticamente cuando se compila la aplicación. Contiene los archivos compilados de la aplicación y se utiliza para ejecutar la aplicación en un dispositivo o emulador.
 
 Además de estas carpetas, el proyecto también contiene varios archivos de configuración, como pubspec.yaml, que se utiliza para administrar las dependencias del proyecto, y main.dart, que es el punto de entrada de la aplicación.
+
+## Hola Mundo en Flutter
+
+1. Instalar Flutter en su máquina, siguiendo las instrucciones en la documentación oficial de Flutter.
+2. Verifique si tiene flutter con: $ flutter --version
+3. Cree su proeycto con: $ flutter create nombre_del_proyecto o desde visualstudio code con el comando flutter new desde la barra de comandos
+4. Ejecute: $ flutter run o desde visualstudio code con flutter select devie y f5
