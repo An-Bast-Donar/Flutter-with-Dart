@@ -85,3 +85,29 @@ Además de estas carpetas, el proyecto también contiene varios archivos de conf
 2. Verifique si tiene flutter con: $ flutter --version
 3. Cree su proeycto con: $ flutter create nombre_del_proyecto o desde visualstudio code con el comando flutter new desde la barra de comandos
 4. Ejecute: $ flutter run o desde visualstudio code con flutter select devie y f5
+
+## Providers
+
+Un Provider es una forma de administrar el estado de la aplicación y compartir datos entre widgets de una manera eficiente y escalable. En términos simples, los Providers son objetos que permiten que una variable o un objeto esté disponible para muchos widgets en una jerarquía de widgets. Esto significa que cualquier cambio en el estado del Provider será reflejado en todos los widgets que estén utilizando ese Provider.
+
+## Estructura de carpetas
+
+No hay una estructura de carpetas única que sea la mejor para todos los proyectos en Flutter, ya que puede variar según las necesidades y complejidad del proyecto. Sin embargo, existen ciertas prácticas comunes que se pueden seguir para mantener una estructura de carpetas organizada y escalable. Aquí te presento una posible estructura de carpetas para un proyecto en Flutter:
+
+- android/ y ios/: estas carpetas contienen los archivos de configuración de los proyectos de Android y iOS respectivamente, generados automáticamente por Flutter.
+- lib/: esta es la carpeta principal donde se encuentra todo el código fuente de la aplicación.
+- lib/main.dart: este archivo es la raíz de la aplicación y donde se define el punto de entrada.
+- lib/screens/: esta carpeta contiene todas las pantallas o vistas de la aplicación. Cada pantalla tiene su propia carpeta, donde se encuentran el archivo .dart correspondiente y sus componentes, modelos, servicios y repositorios asociados.
+- lib/widgets/: esta carpeta contiene todos los widgets reutilizables en toda la aplicación.
+- lib/theme/: esta carpeta contiene todas las constantes de estilo de la aplicación, como colores y tipografías.
+- lib/utils/: esta carpeta contiene todos los archivos de ayuda y constantes que se utilizarán en toda la aplicación.
+- lib/providers/: esta carpeta contiene todos los proveedores necesarios para el estado global de la aplicación.
+- lib/main_bloc.dart: este archivo contiene la lógica principal de la aplicación y maneja la navegación y el estado global de la aplicación.
+- lib/main_repository.dart: este archivo maneja todas las solicitudes de la API y los datos de la aplicación.
+- lib/main_service.dart: este archivo maneja todas las solicitudes de la API y los datos de la aplicación.
+- test/: esta carpeta contiene los archivos de prueba para la aplicación.
+- pubspec.yaml: este archivo contiene todas las dependencias y configuraciones del proyecto.
+
+## Peticiones httpç
+
+Para esto se requiere la dependencia http
